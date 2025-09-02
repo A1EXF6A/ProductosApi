@@ -1,0 +1,70 @@
+# ASP.NET Core / .NET .gitignore
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Visual Studio
+*.vs/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Database files
+*.db
+
+# Debug/Profiling
+*.pdb
+*.mdb
+*.pidb
+*.svclog
+*.psess
+*.vsp
+*.vspx
+
+# Test results
+TestResult*/
+
+# Build folders
+build/
+
+# NuGet
+packages/
+*.nuget.cache
+*.nuget.dgspec.json
+project.assets.json
+*.g.props
+*.g.targets
+
+# Others
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Launch settings (local only)
+Properties/launchSettings.json
+
+# Coverage
+coverage*
+
+# Publish output
+publish/
+
+# Static analysis
+_ReSharper*/
+*.ncrunch*
+
+# Local secrets
+secrets.json
