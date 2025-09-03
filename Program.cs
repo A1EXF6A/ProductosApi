@@ -2,8 +2,7 @@ using ProductosApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.AddSingleton<ProductService>();
+builder.Services.AddSingleton<ProductoService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
